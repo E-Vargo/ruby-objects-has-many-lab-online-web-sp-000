@@ -13,6 +13,9 @@ def initialize(name = boingo)
 @@all << self
 end
 
+def artist_name
+@artist
+end
 
 
 

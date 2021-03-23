@@ -15,7 +15,7 @@ def add_song(song)
   @songs << song
   song.artist = self
 end
-require.pry
+binding.pry
 def add_song_by_name(name)
 
 end

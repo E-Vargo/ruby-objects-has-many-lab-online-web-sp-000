@@ -10,7 +10,11 @@ end
 
 def initialize(name = boingo)
 @name = name
-@@all << self
+save
+end
+
+def save
+  @@all << self
 end
 
 def artist_name

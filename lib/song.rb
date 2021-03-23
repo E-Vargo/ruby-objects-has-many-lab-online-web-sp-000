@@ -14,7 +14,7 @@ def initialize(name = boingo)
 end
 
 def artist_name
-@artist
+self.artist
 end
 
 

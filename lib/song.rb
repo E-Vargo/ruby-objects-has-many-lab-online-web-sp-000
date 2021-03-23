@@ -18,7 +18,7 @@ def save
 end
 
 def artist_name
-self.artist
+self.artist.name
 end
 
 

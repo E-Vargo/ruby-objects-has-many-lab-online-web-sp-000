@@ -3,8 +3,8 @@ class Artist
 attr_accessor :name, :songs
 
 def initialize(name = "Adele")
-  @name = name
   @songs = []
+  @name = name
 end
 
 def songs

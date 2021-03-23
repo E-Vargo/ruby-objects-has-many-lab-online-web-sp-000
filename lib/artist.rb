@@ -9,7 +9,7 @@ def initialize(name = "Adele")
 end
 
 def songs
-  @songs
+  Song.all.select {|x| song.artist == self}
 end
 
 def add_song(song)

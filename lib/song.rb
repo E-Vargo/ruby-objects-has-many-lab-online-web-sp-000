@@ -20,7 +20,7 @@ end
 def artist_name
 if self.artist.name
   self.artist.name
-elsif self.artist == false
+else
   nil
 end
 end

@@ -1,6 +1,6 @@
 class Song
 
-attr_accessor :name, :author, :artist
+attr_accessor :name, :artist
 
 @@all = []
 

@@ -6,6 +6,10 @@ attr_accessor :title, :author
 
 def initialize(title = "Routy Rats")
 @title = title
+save
+end
+
+def save
 @@all << self
 end
 

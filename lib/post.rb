@@ -4,7 +4,7 @@ attr_accessor :title, :author
 
 @@all = []
 
-def initialize(title)
+def initialize(title = "Routy Rats")
 @title = title
 @@all << self
 end

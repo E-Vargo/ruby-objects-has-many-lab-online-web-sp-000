@@ -18,9 +18,9 @@ def save
 end
 
 def artist_name
-if self.artist.name
+if self.artist
   self.artist.name
-elsif self.artist.name == nil
+elsif self.artist == nil
   nil
 end
 end
